@@ -60,3 +60,15 @@
     }
 }
 /* about us */
+.about-us .col{
+    width:100%
+}
+@media screen and (min-width:768px){
+    .about-us .col-1{
+       width: 70%;
+    }
+    .about-us .col-2{
+        width: 30%;
+     }
+}
+/* get started */
