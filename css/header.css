@@ -1,0 +1,14 @@
+header{
+    background-color: var(--first-color);
+    padding:1.25rem;
+}
+.main-nav{
+    display: none;
+}
+@media screen and (min-width:992px)
+    .hamburger{
+        display:none;
+    }
+    .main-nav{
+        display: block;
+    }
