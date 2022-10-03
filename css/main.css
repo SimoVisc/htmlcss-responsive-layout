@@ -72,3 +72,7 @@
      }
 }
 /* get started */
+.get-started{
+    background-color: var(--secondary-color);
+}
+
