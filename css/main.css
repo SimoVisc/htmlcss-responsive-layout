@@ -2,9 +2,10 @@
     background-color: var(--first-color-light);
     height: 100px;
 }
+/* highlights */
 .highlights .col{
     width: 100%; 
-    margin:1.25rem 0;
+    margin: 0.625rem 0;
 }
 @media screen and (min-width:768px){
     .highlights .col{
@@ -12,5 +13,18 @@
     }
     .highlights .col:first-child{
         width: calc((100%/3)*2);
+    }
+}
+/* strategic-planning */
+.strategic-planning{
+    background-color: var(--secondary-color);
+}
+.strategic-planning .col{
+    width: 100%; 
+    margin: 0.625rem 0;
+}
+@media screen and (min-width:768px){
+    .strategic-planning .col{
+        width: 50%;
     }
 }
