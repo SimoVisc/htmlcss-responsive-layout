@@ -7,16 +7,13 @@
 
 /* highlights */
 .highlights .col{
-    width: 100%; 
     margin: 0.625rem 0;
 }
 .highlights h3{
     color: var(--first-color);
+    font-size:1.875rem;
     margin: 0.625rem 0 ;
     text-align: center;
-}
-.highlights img{
-    width: 100%;
 }
 .icon-card{
     font-size: 300%;
@@ -35,8 +32,21 @@
     background-color: var(--secondary-color);
 }
 .strategic-planning .col{
-    width: 100%; 
     margin: 0.625rem 0;
+}
+.strategic-planning h3{
+    color: #fff;
+    font-size: 30px;
+    padding: 1.25rem 0;
+}
+.strategic-planning p{
+    color: #fff;
+    padding: 1.25rem 0;
+}
+.strategic-planning .col-2{
+    background-color: #fff;
+    border-radius: 1.875rem;
+    margin: 0 0.625rem;
 }
 @media screen and (min-width:768px){
     .strategic-planning .col{
@@ -48,7 +58,6 @@
     background-color: var(--secondary-color);
     width:100%;
     margin: 0.625rem 0 ;
-    
 }
 @media screen and (min-width:768px){
     .testimonials .img{
