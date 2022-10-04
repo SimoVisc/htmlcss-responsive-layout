@@ -11,6 +11,7 @@
 /* TYPO */
 body{
     font-family: 'PT Sans', sans-serif;
+    color: #5a6e7f;
 }
 .text-align-center{
     text-align:center;
@@ -43,4 +44,8 @@ section{
 /* ICONS */
 i{
     color: #fff;
+    margin-right:  0.625rem ;
+}
+.icon-container{
+    justify-content: center;
 }

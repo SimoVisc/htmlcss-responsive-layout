@@ -1,11 +1,26 @@
-.card-debug{
+.card{
     background-color: var(--first-color-light);
-    height: 100px;
+    text-align: center;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
 }
+
 /* highlights */
 .highlights .col{
     width: 100%; 
     margin: 0.625rem 0;
+}
+.highlights h3{
+    color: var(--first-color);
+    margin: 0.625rem 0 ;
+    text-align: center;
+}
+.highlights img{
+    width: 100%;
+}
+.icon-card{
+    font-size: 300%;
+    color: var(--first-color);
 }
 @media screen and (min-width:768px){
     .highlights .col{

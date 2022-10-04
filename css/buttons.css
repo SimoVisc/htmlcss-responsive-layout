@@ -1,5 +1,6 @@
 .btn{
     border: none;
+    border-radius: 1.25rem;
 }
 .btn-hamburger{
     background-color: var(--first-color);
@@ -9,6 +10,10 @@
 .btn-get-started{
     background-color: #fff;
     padding:0.625rem;
-    border-radius: 1.25rem;
-
+}
+.btn-appstore{
+    background-color: var(--first-color);
+    color: #fff;
+    padding:0.625rem 3.125rem; 
+    margin:1.25rem 0;
 }

@@ -5,7 +5,6 @@ header{
 }
 .main-nav{
     display: none;
-
 }
 .li-header{
     color: #fff;
@@ -16,7 +15,6 @@ a{
     text-decoration: none;
 }
    
-
 @media screen and (min-width:992px){
     .btn-hamburger{
         display:none;
