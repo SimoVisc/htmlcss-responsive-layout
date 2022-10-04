@@ -47,10 +47,19 @@
     background-color: #fff;
     border-radius: 1.875rem;
     margin: 0 0.625rem;
+    text-align: center;
+}
+.col-2 h3, .col-2 p{
+    color:black;
+    padding: 1.25rem;
+
 }
 @media screen and (min-width:768px){
     .strategic-planning .col{
         width: 50%;
+    }
+    .col-2 img{
+        width: 60%;
     }
 }
 /* testimonials */
@@ -59,6 +68,7 @@
     width:100%;
     margin: 0.625rem 0 ;
 }
+
 @media screen and (min-width:768px){
     .testimonials .img{
         width: 20%;
