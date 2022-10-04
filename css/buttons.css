@@ -1,0 +1,14 @@
+.btn{
+    border: none;
+}
+.btn-hamburger{
+    background-color: var(--first-color);
+    color: #fff;
+    font-size: 1.875rem;
+}
+.btn-get-started{
+    background-color: #fff;
+    padding:0.625rem;
+    border-radius: 1.25rem;
+
+}

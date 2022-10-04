@@ -1,3 +1,4 @@
+/* FLEX */
 .flex{
     display: flex;
 }
@@ -7,9 +8,14 @@
 .align-items-end{
     align-items: flex-end;
 }
+/* TYPO */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 .text-align-center{
     text-align:center;
 }
+/* COMMON */
 .container{
     max-width: 68.75rem;
     margin:auto;
@@ -29,8 +35,12 @@
 section{
     padding: 1.875rem 0;
 }
+/* LIST INLINE */
 .list-inline{
     display:flex;
     list-style: none;
-    background-color:#fff;
+}
+/* ICONS */
+i{
+    color: #fff;
 }

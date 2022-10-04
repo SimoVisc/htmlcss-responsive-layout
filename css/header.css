@@ -5,12 +5,24 @@ header{
 }
 .main-nav{
     display: none;
+
 }
+.li-header{
+    color: #fff;
+    margin-right:1.875rem; 
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+   
+
 @media screen and (min-width:992px){
-    .hamburger{
+    .btn-hamburger{
         display:none;
     }
     .main-nav{
-        display: block;
+        display: flex;
+        align-items: center;
     }
 }
